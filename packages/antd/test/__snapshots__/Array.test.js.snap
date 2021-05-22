@@ -148,6 +148,7 @@ exports[`array fields checkboxes 1`] = `
             aria-haspopup="listbox"
             aria-owns="root_list"
             autoComplete="off"
+            autoCapitalize="off"
             autoFocus={false}
             className="ant-select-selection-search-input"
             disabled={false}
@@ -400,6 +401,7 @@ exports[`array fields fixed array 1`] = `
                             <input
                               aria-valuemin={-9007199254740991}
                               autoComplete="off"
+                              autoCapitalize="off"
                               className="ant-input-number-input"
                               disabled={false}
                               id="root_1"

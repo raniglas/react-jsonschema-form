@@ -37,6 +37,7 @@ const allowedProps = [
   "theme",
   "styles",
   "autoComplete",
+  "autoCapitalize",
   "mask",
   "maskChar",
   "maskFormat",

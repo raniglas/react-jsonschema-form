@@ -2193,6 +2193,7 @@ describeRepeated("Form common", createFormComponent => {
       target: "_blank",
       action: "/users/list",
       autoComplete: "off",
+      autoCapitalize: "off",
       enctype: "multipart/form-data",
       acceptcharset: "ISO-8859-1",
       noHtml5Validate: true,
@@ -2230,6 +2231,10 @@ describeRepeated("Form common", createFormComponent => {
 
     it("should set attr autocomplete of form", () => {
       expect(node.getAttribute("autocomplete")).eql(formProps.autoComplete);
+    });
+
+    it("should set attr autocapitalize of form", () => {
+      expect(node.getAttribute("autocapitalize")).eql(formProps.autoCapitalize);
     });
 
     it("should set attr enctype of form", () => {

@@ -48,6 +48,10 @@ function BaseInput(props) {
     inputProps.autoComplete = options.autocomplete;
   }
 
+  if (options.autocapitalize) {
+    inputProps.autoCapitalize = options.autocapitalize;
+  }
+
   // If multipleOf is defined, use this as the step value. This mainly improves
   // the experience for keyboard users (who can use the up/down KB arrows).
   if (schema.multipleOf) {

@@ -26,6 +26,10 @@ The value of this prop will be passed to the `autocomplete` [HTML attribute on t
 
 Deprecated, same functionality as `autoComplete`
 
+## autoCapitalize
+
+The value of this prop will be passed to the `autocapitalize` [HTML attribute on the form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attr-autocapitalize).
+
 ## className
 
 The value of this prop will be passed to the `class` [HTML attribute on the form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form).

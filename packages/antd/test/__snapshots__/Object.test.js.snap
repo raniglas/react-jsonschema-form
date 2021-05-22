@@ -203,6 +203,7 @@ exports[`object fields object 1`] = `
                         <input
                           aria-valuemin={-9007199254740991}
                           autoComplete="off"
+                          autoCapitalize="off"
                           className="ant-input-number-input"
                           disabled={false}
                           id="root_b"

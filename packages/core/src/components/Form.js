@@ -426,6 +426,7 @@ export default class Form extends Component {
       action,
       autocomplete: deprecatedAutocomplete,
       autoComplete: currentAutoComplete,
+      autoCapitalize,
       enctype,
       acceptcharset,
       noHtml5Validate,
@@ -455,6 +456,7 @@ export default class Form extends Component {
         target={target}
         action={action}
         autoComplete={autoComplete}
+        autoCapitalize={autoCapitalize}
         encType={enctype}
         acceptCharset={acceptcharset}
         noValidate={noHtml5Validate}
@@ -517,6 +519,7 @@ if (process.env.NODE_ENV !== "production") {
     action: PropTypes.string,
     autocomplete: PropTypes.string,
     autoComplete: PropTypes.string,
+    autoCapitalize: PropTypes.string,
     enctype: PropTypes.string,
     acceptcharset: PropTypes.string,
     noValidate: PropTypes.bool,
